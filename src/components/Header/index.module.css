@@ -1,0 +1,22 @@
+.cHeaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  padding: 0.5rem 1rem;
+
+  background-color: #000c;
+}
+
+.cNavigationPanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cActionsPanel {
+  display: flex;
+  align-items: center;
+}

@@ -1,29 +1,21 @@
-import { Link } from "wouter";
+import PageMenu from "./components/PageMenu/index.jsx";
+import CartButton from "./components/CartButton/index.jsx";
+import Authentication from "./components/Authentication/index.jsx";
+
+import {
+  cActionsPanel,
+  cHeaderContainer,
+  cNavigationPanel,
+} from "./index.module.css";
 
 export default () => (
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="#">Features</Link>
-        </li>
-        <li>
-          <Link href="#">Pricing</Link>
-        </li>
-        <li>
-          <Link href="#">FAQs</Link>
-        </li>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-      </ul>
+  <header className={cHeaderContainer}>
+    <nav className={`${cNavigationPanel} maximum-width`}>
+      <PageMenu />
 
-      <div>
-        <Link href="/sign-in">Sign in</Link>
-        <Link href="/register">Sign in</Link>
+      <div className={cActionsPanel}>
+        <Authentication />
+        <CartButton />
       </div>
     </nav>
   </header>

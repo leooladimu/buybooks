@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="HomePage"
+    errors="1" failures="0" hostname="" id="" package="HomePage" skipped="2"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       SessionNotCreatedError: Could not create a session: You must enable the &#39;Allow Remote Automation&#39; option in Safari&#39;s Develop menu to control Safari via WebDriver.
+   
+ WebDriverError: Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url http://localhost:8080: unknown error: net::ERR_CONNECTION_REFUSED
+   (Session info: chrome=103.0.5060.114)
+       at DescribeInstance.&lt;anonymous&gt; (file:///Users/leooladimu/Documents/buybooks/tests/e2e/HomePage.js:4:10)
+  Error: An error occurred while creating a new GeckoDriver session: [Error] Timed out waiting for the WebDriver server at http://localhost:4444/
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/Users/leooladimu/Documents/buybooks/node_modules/geckodriver/geckodriver&#39;,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: []
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="tests if homepage is loaded" classname="HomePage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="tests if anonymous user cannot add book to a cart" classname="HomePage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

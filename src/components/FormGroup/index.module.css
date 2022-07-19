@@ -1,0 +1,18 @@
+.cFormGroup {
+  padding: 0;
+  border: none;
+}
+
+.cFormGroup + .cFormGroup {
+  margin-top: 1rem;
+}
+
+.cFormGroupTitle {
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 1.8rem;
+
+  color: var(--accent-text-color);
+}

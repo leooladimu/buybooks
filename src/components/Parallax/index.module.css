@@ -1,0 +1,13 @@
+.cParallax {
+  --perspective: 8;
+
+  position: relative;
+
+  height: 100vh;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  perspective: calc(var(--perspective) * 1px);
+  perspective-origin: 0%;
+}

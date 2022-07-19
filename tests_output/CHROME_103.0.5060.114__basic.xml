@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="basic"
+    errors="2" failures="0" hostname="" id="" package="basic" skipped="0"
+    tests="1" time="0.000" timestamp="">
+  
+    <testcase name="tests the component" classname="basic" time="0" assertions="0">
+    <error message="Error while running &#34;mountReactComponent&#34; command: Error while running &#34;execute&#34; command: Could not mount the component. Run nightwatch with --devtools and --debug flags (Chrome only) and investigate the error in the browser console." type="error"><![CDATA[
+    Error
+    at DescribeInstance.&lt;anonymous&gt; (file:///Users/leooladimu/Documents/buybooks/tests/component/basic.js:3:39)
+    at Context.call (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/context.js:430:35)
+    at TestCase.run (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    at Runnable.__runFn (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/index.js:690:80)
+    at Runnable.run (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/runnable.js:126:21)
+    at TestSuite.createRunnable (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/index.js:797:33)
+    at TestSuite.handleRunnable (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/index.js:802:33)
+    at /Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/index.js:690:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/runner/test-runners/default.js:73:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       Error: Error while running &#34;mountReactComponent&#34; command: Error while running &#34;execute&#34; command: Could not mount the component. Run nightwatch with --devtools and --debug flags (Chrome only) and investigate the error in the browser console.
+       at DescribeInstance.&lt;anonymous&gt; (file:///Users/leooladimu/Documents/buybooks/tests/component/basic.js:3:39)
+ Error: Error while running &#34;mountReactComponent&#34; command: Error while running &#34;execute&#34; command: Could not mount the component. Run nightwatch with --devtools and --debug flags (Chrome only) and investigate the error in the browser console.
+       at DescribeInstance.&lt;anonymous&gt; (file:///Users/leooladimu/Documents/buybooks/tests/component/basic.js:3:39)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

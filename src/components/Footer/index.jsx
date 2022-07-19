@@ -1,14 +1,28 @@
+import { cSocialLink, cDisclaimer, cFooterContainer } from "./index.module.css";
+
 export default () => (
-    <footer>
-      <div>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          Twitter
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          Github
-        </a>
-      </div>
-  
-      <p>© {new Date().getFullYear()} Buybooks. All Right Reserved.</p>
-    </footer>
-  );
+  <footer className={cFooterContainer}>
+    <div>
+      <a
+        href="https://twitter.com/pineviewlabs"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={cSocialLink}
+      >
+        Twitter
+      </a>
+      <a
+        href="https://github.com/pineviewlabs"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={cSocialLink}
+      >
+        Github
+      </a>
+    </div>
+
+    <p className={cDisclaimer}>
+      © {new Date().getFullYear()} buyBooks. All Right Reserved.
+    </p>
+  </footer>
+);

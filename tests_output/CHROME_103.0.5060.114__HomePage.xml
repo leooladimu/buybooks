@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="HomePage"
+    errors="1" failures="0" hostname="" id="" package="HomePage" skipped="1"
+    tests="1" time="0.2860" timestamp="">
+  
+    <testcase name="tests if homepage is loaded" classname="HomePage" time="0.2860" assertions="0">
+    <error message="Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url http://localhost:8080: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=103.0.5060.114)" type="error"><![CDATA[
+    Error
+    at DescribeInstance.&lt;anonymous&gt; (file:///Users/leooladimu/Documents/buybooks/tests/e2e/HomePage.js:4:10)
+    at Context.call (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/context.js:430:35)
+    at TestCase.run (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    at Runnable.__runFn (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/index.js:690:80)
+    at Runnable.run (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/runnable.js:126:21)
+    at TestSuite.createRunnable (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/index.js:797:33)
+    at TestSuite.handleRunnable (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/index.js:802:33)
+    at /Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/testsuite/index.js:690:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (/Users/leooladimu/Documents/buybooks/node_modules/nightwatch/lib/runner/test-runners/default.js:73:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       WebDriverError: Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url http://localhost:8080: unknown error: net::ERR_CONNECTION_REFUSED
+   (Session info: chrome=103.0.5060.114)
+       at DescribeInstance.&lt;anonymous&gt; (file:///Users/leooladimu/Documents/buybooks/tests/e2e/HomePage.js:4:10)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="tests if anonymous user cannot add book to a cart" classname="HomePage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
